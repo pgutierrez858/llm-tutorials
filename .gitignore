@@ -1,0 +1,50 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ---- Poetry ----
+poetry.lock
+.venv/
+.venv*/         # in case of .venv3.10 or similar
+*.dist-info/
+*.egg-info/
+
+# ---- Model files ----
+*.gguf
+*.bin
+*.ckpt
+*.pt
+*.safetensors
+
+# ---- IDEs ----
+
+# VSCode
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---- OS / Misc ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs / Dumps ----
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+
+# ---- Environment / Secrets ----
+.env
+.env.*
+*.secret
